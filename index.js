@@ -10,7 +10,7 @@ const morgan = require('morgan')
 
 const app = express();
 const port = process.env.PORT || 5000;
-let uri = "";
+let uri = process.env.ATLAS_URI;
 
 // register middleware
 app.use(express.urlencoded({ extended: true }));
@@ -20,7 +20,7 @@ app.use(morgan('dev'))
 // Serve up static assets (heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
-  uri = ""; // connection string for Atlas here
+  uri = process.env.ATLAS_URI; // connection string for Atlas here
 } else {
   uri = process.env.ATLAS_URI; // connection string for localhost mongo here
 }
