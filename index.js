@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
   uri = ""; // connection string for Atlas here
 } else {
-  uri = "mongodb+srv://root:giler777@cluster0-ypovw.mongodb.net/test?retryWrites=true&w=majority"; // connection string for localhost mongo here
+  uri = process.env.ATLAS_URI; // connection string for localhost mongo here
 }
 
 // connection to database
