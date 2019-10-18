@@ -1,5 +1,5 @@
 
-[Link to the website!](https://lifesports777.herokuapp.com/)
+[Link to the website!](https://lifesports777.herokuapp.com/){:target="_blank"}
 
 
 # LifeSports Challlenge and Hackathon
