@@ -1,19 +1,27 @@
 
-[go](https://lifesports777.herokuapp.com/){:target="_blank" rel="noopener"})
 
 
-# LifeSports Challlenge and Hackathon
+# LifeSports Challenge and Hackathon
 
-### About Us
-
+### About Me
+Hello, my name Jonathan and this app was made to keep track of the users and exercises for the coaches of lifesports.
 
 ### Build Components
+Project is created with:
+* node: 10.16.0
+* react: 16.8.6
+* heroku app
+* mongoDB.Atlas
 
 ### Usage
+* clone this app to your machine
+* update your .env file
+$ npm install
+$ npm start
 
-```js
+### License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-```
 
 #### Challenge Instructions
 
