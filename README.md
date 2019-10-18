@@ -14,10 +14,13 @@ Project is created with:
 * mongoDB.Atlas
 
 ### Usage
-* clone this app to your machine
-* update your .env file
+* Clone this app to your machine
+* Update your .env file
+* Execute the following commands in your terminal/command prompt
+```
 $ npm install
 $ npm start
+```
 
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
