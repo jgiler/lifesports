@@ -1,5 +1,5 @@
 
-[go](https://lifesports777.herokuapp.com/{:target="_blank" rel="noopener"})
+[go](https://lifesports777.herokuapp.com/){:target="_blank" rel="noopener"})
 
 
 # LifeSports Challlenge and Hackathon
