@@ -1,7 +1,7 @@
 
 
 
-# LifeSports Challenge and Hackathon
+# LifeSports Application
 
 ### About Me
 Hello, my name Jonathan and this app was made to keep track of the users and exercises for the coaches of lifesports.
