@@ -68,22 +68,6 @@ router.delete("/:id", async (req, res) => {
 // with information sent by client on req body
 // POST: /update/:id
 // ========================================
-// router.put("/update/:id", async (req, res) => {
-//   let id = req.params.id;
-//   const exercise = await Exercise.findByIdAndUpdate(
-//     { _id: id },
-//     {
-//       $set: {
-//         username: req.body.username,
-//         description: req.body.description,
-//         duration: req.body.duration,
-//         date: req.body.date,
-//       },
-//     },
-//     { new: true }
-//   );
-//   res.send(exercise);
-// });
 
 router.put('/update/:id', async (req, res) => {
   try{
